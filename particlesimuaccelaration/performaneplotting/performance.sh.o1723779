@@ -1,0 +1,135 @@
+### Starting TaskPrologue of job 1723779 on a0124 at Thu Jun 13 00:13:10 CEST 2024
+Running on cores 0-15 with governor ondemand
+Thu Jun 13 00:13:10 2024       
++-----------------------------------------------------------------------------------------+
+| NVIDIA-SMI 555.42.02              Driver Version: 555.42.02      CUDA Version: 12.5     |
+|-----------------------------------------+------------------------+----------------------+
+| GPU  Name                 Persistence-M | Bus-Id          Disp.A | Volatile Uncorr. ECC |
+| Fan  Temp   Perf          Pwr:Usage/Cap |           Memory-Usage | GPU-Util  Compute M. |
+|                                         |                        |               MIG M. |
+|=========================================+========================+======================|
+|   0  NVIDIA A40                     On  |   00000000:01:00.0 Off |                  Off |
+|  0%   34C    P8             23W /  300W |       1MiB /  49140MiB |      0%      Default |
+|                                         |                        |                  N/A |
++-----------------------------------------+------------------------+----------------------+
+                                                                                         
++-----------------------------------------------------------------------------------------+
+| Processes:                                                                              |
+|  GPU   GI   CI        PID   Type   Process name                              GPU Memory |
+|        ID   ID                                                               Usage      |
+|=========================================================================================|
+|  No running processes found                                                             |
++-----------------------------------------------------------------------------------------+
+### Finished TaskPrologue
+
+-- The CXX compiler identification is GNU 12.1.0
+-- The CUDA compiler identification is NVIDIA 12.4.131
+-- Detecting CXX compiler ABI info
+-- Detecting CXX compiler ABI info - done
+-- Check for working CXX compiler: /apps/SPACK/0.18.0/opt/linux-almalinux8-zen/gcc-8.5.0/gcc-12.1.0-aqjaxi6qzz4fjsdz6fyxpivbenk6akth/bin/g++ - skipped
+-- Detecting CXX compile features
+-- Detecting CXX compile features - done
+-- Detecting CUDA compiler ABI info
+-- Detecting CUDA compiler ABI info - done
+-- Check for working CUDA compiler: /apps/SPACK/0.19.1/opt/linux-almalinux8-zen/gcc-8.5.0/cuda-12.4.1-n7tdo6v5wbgz7vuixtvyshytmgkm7cfa/bin/nvcc - skipped
+-- Detecting CUDA compile features
+-- Detecting CUDA compile features - done
+-- Found libcudacxx: /home/hpc/hesp/hesp101h/particlesimuaccelaration/build/_deps/thrust-src/dependencies/libcudacxx/lib/cmake/libcudacxx/libcudacxx-config.cmake (found suitable version "1.8.1.0", minimum required is "1.8.0") 
+-- Found Thrust: /home/hpc/hesp/hesp101h/particlesimuaccelaration/build/_deps/thrust-src/thrust/cmake/thrust-config.cmake (found version "2.1.0.0") 
+-- Found CUB: /home/hpc/hesp/hesp101h/particlesimuaccelaration/build/_deps/thrust-src/dependencies/cub/cub/cmake/cub-config.cmake (found suitable version "2.1.0.0", minimum required is "2.1.0.0") 
+-- Configuring done
+-- Generating done
+-- Build files have been written to: /home/hpc/hesp/hesp101h/particlesimuaccelaration/build
+Consolidate compiler generated dependencies of target MDsimu
+[100%] Built target MDsimu
+5 start
+5 done
+7 start
+7 done
+9 start
+9 done
+11 start
+11 done
+13 start
+13 done
+15 start
+15 done
+17 start
+17 done
+19 start
+19 done
+-- The CXX compiler identification is GNU 12.1.0
+-- The CUDA compiler identification is NVIDIA 12.4.131
+-- Detecting CXX compiler ABI info
+-- Detecting CXX compiler ABI info - done
+-- Check for working CXX compiler: /apps/SPACK/0.18.0/opt/linux-almalinux8-zen/gcc-8.5.0/gcc-12.1.0-aqjaxi6qzz4fjsdz6fyxpivbenk6akth/bin/g++ - skipped
+-- Detecting CXX compile features
+-- Detecting CXX compile features - done
+-- Detecting CUDA compiler ABI info
+-- Detecting CUDA compiler ABI info - done
+-- Check for working CUDA compiler: /apps/SPACK/0.19.1/opt/linux-almalinux8-zen/gcc-8.5.0/cuda-12.4.1-n7tdo6v5wbgz7vuixtvyshytmgkm7cfa/bin/nvcc - skipped
+-- Detecting CUDA compile features
+-- Detecting CUDA compile features - done
+-- Found libcudacxx: /home/hpc/hesp/hesp101h/particlesimuaccelaration/build/_deps/thrust-src/dependencies/libcudacxx/lib/cmake/libcudacxx/libcudacxx-config.cmake (found suitable version "1.8.1.0", minimum required is "1.8.0") 
+-- Found Thrust: /home/hpc/hesp/hesp101h/particlesimuaccelaration/build/_deps/thrust-src/thrust/cmake/thrust-config.cmake (found version "2.1.0.0") 
+-- Found CUB: /home/hpc/hesp/hesp101h/particlesimuaccelaration/build/_deps/thrust-src/dependencies/cub/cub/cmake/cub-config.cmake (found suitable version "2.1.0.0", minimum required is "2.1.0.0") 
+-- Configuring done
+-- Generating done
+-- Build files have been written to: /home/hpc/hesp/hesp101h/particlesimuaccelaration/build
+Consolidate compiler generated dependencies of target MDsimu
+[ 50%] Building CUDA object implementation/GPU/CMakeFiles/MDsimu.dir/main.cu.o
+[100%] Linking CUDA executable ../../../executable/MDsimu
+[100%] Built target MDsimu
+5 start
+5 done
+7 start
+7 done
+9 start
+9 done
+11 start
+11 done
+13 start
+13 done
+15 start
+15 done
+17 start
+17 done
+19 start
+19 done
+/var/tmp/slurmd_spool/job1723779/slurm_script: line 34: gnuplot: command not found
+=== JOB_STATISTICS ===
+=== current date     : Thu Jun 13 03:22:21 CEST 2024
+= Job-ID             : 1723779 on alex
+= Job-Name           : performance.sh
+= Job-Command        : /home/hpc/hesp/hesp101h/particlesimuaccelaration/performaneplotting/performance.sh
+= Initial workdir    : /home/hpc/hesp/hesp101h/particlesimuaccelaration/performaneplotting
+= Queue/Partition    : a40
+= Slurm account      : hesp with QOS=normal
+= Requested resources:  for 12:00:00
+= Elapsed runtime    : 03:09:13
+= Total RAM usage    : 0.0 GiB of assigned  GiB (%)
+= Node list          : a0124
+= Subm/Elig/Start/End: 2024-06-13T00:13:06 / 2024-06-13T00:13:06 / 2024-06-13T00:13:08 / 2024-06-13T03:22:21
+======================
+=== Quota infos ======
+    Path              Used     SoftQ    HardQ    Gracetime  Filec    FileQ    FiHaQ    FileGrace    
+    /home/hpc         2664.4M   104.9G   209.7G        N/A  33,737      500K   1,000K        N/A    
+======================
+=== GPU utilization ==
+gpu_name, gpu_bus_id, pid, gpu_utilization [%], mem_utilization [%], max_memory_usage [MiB], time [ms]
+NVIDIA A40, 00000000:01:00.0, 751156, 96 %, 0 %, 264 MiB, 30095 ms
+NVIDIA A40, 00000000:01:00.0, 751188, 98 %, 0 %, 264 MiB, 39278 ms
+NVIDIA A40, 00000000:01:00.0, 751231, 98 %, 0 %, 264 MiB, 45649 ms
+NVIDIA A40, 00000000:01:00.0, 751257, 96 %, 0 %, 264 MiB, 39405 ms
+NVIDIA A40, 00000000:01:00.0, 751284, 97 %, 0 %, 264 MiB, 44520 ms
+NVIDIA A40, 00000000:01:00.0, 751331, 99 %, 0 %, 266 MiB, 93137 ms
+NVIDIA A40, 00000000:01:00.0, 751763, 98 %, 0 %, 266 MiB, 83447 ms
+NVIDIA A40, 00000000:01:00.0, 751896, 99 %, 0 %, 268 MiB, 135679 ms
+NVIDIA A40, 00000000:01:00.0, 752416, 0 %, 0 %, 264 MiB, 412 ms
+NVIDIA A40, 00000000:01:00.0, 752425, 99 %, 0 %, 264 MiB, 301811 ms
+NVIDIA A40, 00000000:01:00.0, 752613, 99 %, 0 %, 264 MiB, 524002 ms
+NVIDIA A40, 00000000:01:00.0, 753770, 0 %, 0 %, 264 MiB, 358 ms
+NVIDIA A40, 00000000:01:00.0, 753779, 99 %, 0 %, 264 MiB, 1234786 ms
+NVIDIA A40, 00000000:01:00.0, 754554, 99 %, 0 %, 266 MiB, 1767212 ms
+NVIDIA A40, 00000000:01:00.0, 755708, 0 %, 0 %, 266 MiB, 391 ms
+NVIDIA A40, 00000000:01:00.0, 755717, 99 %, 0 %, 268 MiB, 6988283 ms

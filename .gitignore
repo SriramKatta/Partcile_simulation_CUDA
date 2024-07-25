@@ -1,0 +1,5 @@
+build*
+.vscode*
+executable*
+!build_run.sh
+*.png

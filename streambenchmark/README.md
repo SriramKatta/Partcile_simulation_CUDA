@@ -1,0 +1,1 @@
+* `build.sh`: contains all necessary code to prepare/build my executable(s) and place the benchmarking results in a folder called data at the same level as src

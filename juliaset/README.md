@@ -1,0 +1,1 @@
+* `build_run.sh`: contains all necessary code to prepare/build my executable(s) and place the generated images at the same level as src

@@ -1,0 +1,82 @@
+### Starting TaskPrologue of job 1724563 on a0429 at Thu Jun 13 08:57:39 CEST 2024
+Running on cores 48-63 with governor ondemand
+Thu Jun 13 08:57:39 2024       
++-----------------------------------------------------------------------------------------+
+| NVIDIA-SMI 555.42.02              Driver Version: 555.42.02      CUDA Version: 12.5     |
+|-----------------------------------------+------------------------+----------------------+
+| GPU  Name                 Persistence-M | Bus-Id          Disp.A | Volatile Uncorr. ECC |
+| Fan  Temp   Perf          Pwr:Usage/Cap |           Memory-Usage | GPU-Util  Compute M. |
+|                                         |                        |               MIG M. |
+|=========================================+========================+======================|
+|   0  NVIDIA A40                     On  |   00000000:61:00.0 Off |                  Off |
+|  0%   53C    P8             30W /  300W |       1MiB /  49140MiB |      0%      Default |
+|                                         |                        |                  N/A |
++-----------------------------------------+------------------------+----------------------+
+                                                                                         
++-----------------------------------------------------------------------------------------+
+| Processes:                                                                              |
+|  GPU   GI   CI        PID   Type   Process name                              GPU Memory |
+|        ID   ID                                                               Usage      |
+|=========================================================================================|
+|  No running processes found                                                             |
++-----------------------------------------------------------------------------------------+
+### Finished TaskPrologue
+
+'../executable/MDsimu' -> '/home/woody/hesp/hesp101h/1724563/MDsimu'
+-- The CXX compiler identification is GNU 12.1.0
+-- The CUDA compiler identification is NVIDIA 12.4.131
+-- Detecting CXX compiler ABI info
+-- Detecting CXX compiler ABI info - done
+-- Check for working CXX compiler: /apps/SPACK/0.18.0/opt/linux-almalinux8-zen/gcc-8.5.0/gcc-12.1.0-aqjaxi6qzz4fjsdz6fyxpivbenk6akth/bin/g++ - skipped
+-- Detecting CXX compile features
+-- Detecting CXX compile features - done
+-- Detecting CUDA compiler ABI info
+-- Detecting CUDA compiler ABI info - done
+-- Check for working CUDA compiler: /apps/SPACK/0.19.1/opt/linux-almalinux8-zen/gcc-8.5.0/cuda-12.4.1-n7tdo6v5wbgz7vuixtvyshytmgkm7cfa/bin/nvcc - skipped
+-- Detecting CUDA compile features
+-- Detecting CUDA compile features - done
+-- Found libcudacxx: /home/hpc/hesp/hesp101h/particlesimuaccelaration/build/_deps/thrust-src/dependencies/libcudacxx/lib/cmake/libcudacxx/libcudacxx-config.cmake (found suitable version "1.8.1.0", minimum required is "1.8.0") 
+-- Found Thrust: /home/hpc/hesp/hesp101h/particlesimuaccelaration/build/_deps/thrust-src/thrust/cmake/thrust-config.cmake (found version "2.1.0.0") 
+-- Found CUB: /home/hpc/hesp/hesp101h/particlesimuaccelaration/build/_deps/thrust-src/dependencies/cub/cub/cmake/cub-config.cmake (found suitable version "2.1.0.0", minimum required is "2.1.0.0") 
+-- Configuring done
+-- Generating done
+-- Build files have been written to: /home/hpc/hesp/hesp101h/particlesimuaccelaration/build
+Consolidate compiler generated dependencies of target MDsimu
+[100%] Built target MDsimu
+'inputsim3' -> '/home/woody/hesp/hesp101h/1724563/inputsim3'
+./inputsim3
+/home/hpc/hesp/hesp101h/particlesimuaccelaration/performaneplottingoutputvtk4cutoff/
+time step : 0.001 
+number of time steps : 10000 
+sigma value : 0.35 
+epsilon value : -10 
+input file loc : ./inputsim3 
+outputfolder loc : /home/hpc/hesp/hesp101h/particlesimuaccelaration/performaneplottingoutputvtk4cutoff/ 
+cutoff radius value : 2.52 
+xyzmin value : -6 
+xyzmin value : 6 
+numparticles : 1000
+srun: Job step aborted: Waiting up to 32 seconds for job step to finish.
+slurmstepd: error: *** JOB 1724563 ON a0429 CANCELLED AT 2024-06-13T09:01:17 ***
+slurmstepd: error: *** STEP 1724563.0 ON a0429 CANCELLED AT 2024-06-13T09:01:17 ***
+=== JOB_STATISTICS ===
+=== current date     : Thu Jun 13 09:01:20 CEST 2024
+= Job-ID             : 1724563 on alex
+= Job-Name           : sim.sh
+= Job-Command        : /home/hpc/hesp/hesp101h/particlesimuaccelaration/performaneplotting/sim.sh
+= Initial workdir    : /home/hpc/hesp/hesp101h/particlesimuaccelaration/performaneplotting
+= Queue/Partition    : a40
+= Slurm account      : hesp with QOS=normal
+= Requested resources:  for 12:30:00
+= Elapsed runtime    : 00:03:40
+= Total RAM usage    : 0.0 GiB of assigned  GiB (%)
+= Node list          : a0429
+= Subm/Elig/Start/End: 2024-06-13T08:57:27 / 2024-06-13T08:57:27 / 2024-06-13T08:57:37 / 2024-06-13T09:01:17
+======================
+=== Quota infos ======
+    Path              Used     SoftQ    HardQ    Gracetime  Filec    FileQ    FiHaQ    FileGrace    
+    /home/hpc         2661.7M   104.9G   209.7G        N/A  33,857      500K   1,000K        N/A    
+======================
+=== GPU utilization ==
+gpu_name, gpu_bus_id, pid, gpu_utilization [%], mem_utilization [%], max_memory_usage [MiB], time [ms]
+NVIDIA A40, 00000000:61:00.0, 998491, 94 %, 0 %, 264 MiB, 212137 ms

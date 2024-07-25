@@ -1,0 +1,178 @@
+### Starting TaskPrologue of job 1716989 on a0127 at Tue Jun 11 00:40:35 CEST 2024
+Running on cores 80-95 with governor ondemand
+Tue Jun 11 00:40:35 2024       
++-----------------------------------------------------------------------------------------+
+| NVIDIA-SMI 555.42.02              Driver Version: 555.42.02      CUDA Version: 12.5     |
+|-----------------------------------------+------------------------+----------------------+
+| GPU  Name                 Persistence-M | Bus-Id          Disp.A | Volatile Uncorr. ECC |
+| Fan  Temp   Perf          Pwr:Usage/Cap |           Memory-Usage | GPU-Util  Compute M. |
+|                                         |                        |               MIG M. |
+|=========================================+========================+======================|
+|   0  NVIDIA A40                     On  |   00000000:A1:00.0 Off |                  Off |
+|  0%   59C    P0             71W /  300W |       1MiB /  49140MiB |      0%      Default |
+|                                         |                        |                  N/A |
++-----------------------------------------+------------------------+----------------------+
+                                                                                         
++-----------------------------------------------------------------------------------------+
+| Processes:                                                                              |
+|  GPU   GI   CI        PID   Type   Process name                              GPU Memory |
+|        ID   ID                                                               Usage      |
+|=========================================================================================|
+|  No running processes found                                                             |
++-----------------------------------------------------------------------------------------+
+### Finished TaskPrologue
+
+-- The CXX compiler identification is GNU 12.1.0
+-- The CUDA compiler identification is NVIDIA 12.4.131
+-- Detecting CXX compiler ABI info
+-- Detecting CXX compiler ABI info - done
+-- Check for working CXX compiler: /apps/SPACK/0.18.0/opt/linux-almalinux8-zen/gcc-8.5.0/gcc-12.1.0-aqjaxi6qzz4fjsdz6fyxpivbenk6akth/bin/g++ - skipped
+-- Detecting CXX compile features
+-- Detecting CXX compile features - done
+-- Detecting CUDA compiler ABI info
+-- Detecting CUDA compiler ABI info - done
+-- Check for working CUDA compiler: /apps/SPACK/0.19.1/opt/linux-almalinux8-zen/gcc-8.5.0/cuda-12.4.1-n7tdo6v5wbgz7vuixtvyshytmgkm7cfa/bin/nvcc - skipped
+-- Detecting CUDA compile features
+-- Detecting CUDA compile features - done
+-- Found libcudacxx: /home/hpc/hesp/hesp101h/particlesimuaccelaration/build/_deps/thrust-src/dependencies/libcudacxx/lib/cmake/libcudacxx/libcudacxx-config.cmake (found suitable version "1.8.1.0", minimum required is "1.8.0") 
+-- Found Thrust: /home/hpc/hesp/hesp101h/particlesimuaccelaration/build/_deps/thrust-src/thrust/cmake/thrust-config.cmake (found version "2.1.0.0") 
+-- Found CUB: /home/hpc/hesp/hesp101h/particlesimuaccelaration/build/_deps/thrust-src/dependencies/cub/cub/cmake/cub-config.cmake (found suitable version "2.1.0.0", minimum required is "2.1.0.0") 
+-- Configuring done
+-- Generating done
+-- Build files have been written to: /home/hpc/hesp/hesp101h/particlesimuaccelaration/build
+Consolidate compiler generated dependencies of target MDsimu
+[100%] Built target MDsimu
+./inputsim3
+./outputvtk3/
+time step : 0.001 
+number of time steps : 10000 
+sigma value : 0.35 
+epsilon value : -10 
+input file loc : ./inputsim3 
+outputfolder loc : ./outputvtk3/ 
+cutoff radius value : 2.52 
+xyzmin value : -21 
+xyzmin value : 21 
+numparticles : 64000
+Step 0, Total Energy: 19105.5
+Step 100, Total Energy: 19105.9
+Step 200, Total Energy: 19106.1
+Step 300, Total Energy: 19105.9
+Step 400, Total Energy: 19105.4
+Step 500, Total Energy: 19104.6
+Step 600, Total Energy: 19103.4
+Step 700, Total Energy: 19101.5
+Step 800, Total Energy: 19099.4
+Step 900, Total Energy: 19097.1
+Step 1000, Total Energy: 19094.2
+Step 1100, Total Energy: 19091.1
+Step 1200, Total Energy: 19087.6
+Step 1300, Total Energy: 19083.1
+Step 1400, Total Energy: 19078
+Step 1500, Total Energy: 19071.8
+Step 1600, Total Energy: 19065.1
+Step 1700, Total Energy: 19057
+Step 1800, Total Energy: 19047.3
+Step 1900, Total Energy: 19035.7
+Step 2000, Total Energy: 19021.4
+Step 2100, Total Energy: 19003.2
+Step 2200, Total Energy: 18979.8
+Step 2300, Total Energy: 18947.6
+Step 2400, Total Energy: 18903.3
+Step 2500, Total Energy: 18840.1
+Step 2600, Total Energy: 18746.8
+Step 2700, Total Energy: 18606.3
+Step 2800, Total Energy: 18397.6
+Step 2900, Total Energy: 18111.9
+Step 3000, Total Energy: 17805.4
+Step 3100, Total Energy: 17635.2
+Step 3200, Total Energy: 17721.3
+Step 3300, Total Energy: 17980.8
+Step 3400, Total Energy: 18260.3
+Step 3500, Total Energy: 18485.4
+Step 3600, Total Energy: 18644.5
+Step 3700, Total Energy: 18750.2
+Step 3800, Total Energy: 18818.6
+Step 3900, Total Energy: 18861.3
+Step 4000, Total Energy: 18886.2
+Step 4100, Total Energy: 18897.9
+Step 4200, Total Energy: 18898.7
+Step 4300, Total Energy: 18889.2
+Step 4400, Total Energy: 18868.2
+Step 4500, Total Energy: 18833.8
+Step 4600, Total Energy: 18781.4
+Step 4700, Total Energy: 18703
+Step 4800, Total Energy: 18588.8
+Step 4900, Total Energy: 18429.8
+Step 5000, Total Energy: 18227.5
+Step 5100, Total Energy: 18018.2
+Step 5200, Total Energy: 17882.2
+Step 5300, Total Energy: 17889.2
+Step 5400, Total Energy: 18024.9
+Step 5500, Total Energy: 18215.5
+Step 5600, Total Energy: 18398.3
+Step 5700, Total Energy: 18546.3
+Step 5800, Total Energy: 18655.7
+Step 5900, Total Energy: 18732.1
+Step 6000, Total Energy: 18782.3
+Step 6100, Total Energy: 18811.7
+Step 6200, Total Energy: 18824.3
+Step 6300, Total Energy: 18822.1
+Step 6400, Total Energy: 18805
+Step 6500, Total Energy: 18771.2
+Step 6600, Total Energy: 18717.1
+Step 6700, Total Energy: 18636.5
+Step 6800, Total Energy: 18522.2
+Step 6900, Total Energy: 18371.5
+Step 7000, Total Energy: 18197
+Step 7100, Total Energy: 18040.1
+Step 7200, Total Energy: 17962.9
+Step 7300, Total Energy: 18001.7
+Step 7400, Total Energy: 18130.6
+Step 7500, Total Energy: 18289.6
+Step 7600, Total Energy: 18434.4
+Step 7700, Total Energy: 18549.9
+Step 7800, Total Energy: 18636.2
+Step 7900, Total Energy: 18697.8
+Step 8000, Total Energy: 18738.6
+Step 8100, Total Energy: 18761.1
+Step 8200, Total Energy: 18766.7
+Step 8300, Total Energy: 18755.6
+Step 8400, Total Energy: 18726.3
+Step 8500, Total Energy: 18675.6
+Step 8600, Total Energy: 18598.8
+Step 8700, Total Energy: 18490.8
+Step 8800, Total Energy: 18351.4
+Step 8900, Total Energy: 18195.6
+Step 9000, Total Energy: 18066.1
+Step 9100, Total Energy: 18016.4
+Step 9200, Total Energy: 18066.8
+Step 9300, Total Energy: 18185.5
+Step 9400, Total Energy: 18322
+Step 9500, Total Energy: 18444.6
+Step 9600, Total Energy: 18543
+Step 9700, Total Energy: 18617.3
+Step 9800, Total Energy: 18670.4
+Step 9900, Total Energy: 18705.1
+Step 10000, Total Energy: 18722.8
+=== JOB_STATISTICS ===
+=== current date     : Tue Jun 11 05:38:17 CEST 2024
+= Job-ID             : 1716989 on alex
+= Job-Name           : sim.sh
+= Job-Command        : /home/hpc/hesp/hesp101h/particlesimuaccelaration/performaneplotting/sim.sh
+= Initial workdir    : /home/hpc/hesp/hesp101h/particlesimuaccelaration/performaneplotting
+= Queue/Partition    : a40
+= Slurm account      : hesp with QOS=normal
+= Requested resources:  for 12:30:00
+= Elapsed runtime    : 04:57:44
+= Total RAM usage    : 0.0 GiB of assigned  GiB (%)
+= Node list          : a0127
+= Subm/Elig/Start/End: 2024-06-11T00:36:51 / 2024-06-11T00:36:51 / 2024-06-11T00:40:33 / 2024-06-11T05:38:17
+======================
+=== Quota infos ======
+    Path              Used     SoftQ    HardQ    Gracetime  Filec    FileQ    FiHaQ    FileGrace    
+    /home/hpc         2548.2M   104.9G   209.7G        N/A  33,631      500K   1,000K        N/A    
+======================
+=== GPU utilization ==
+gpu_name, gpu_bus_id, pid, gpu_utilization [%], mem_utilization [%], max_memory_usage [MiB], time [ms]
+NVIDIA A40, 00000000:A1:00.0, 856320, 1 %, 0 %, 268 MiB, 17855418 ms

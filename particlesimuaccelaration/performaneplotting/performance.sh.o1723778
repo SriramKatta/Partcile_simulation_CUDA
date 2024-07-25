@@ -1,0 +1,114 @@
+### Starting TaskPrologue of job 1723778 on a0124 at Thu Jun 13 00:11:44 CEST 2024
+Running on cores 0-15 with governor ondemand
+Thu Jun 13 00:11:44 2024       
++-----------------------------------------------------------------------------------------+
+| NVIDIA-SMI 555.42.02              Driver Version: 555.42.02      CUDA Version: 12.5     |
+|-----------------------------------------+------------------------+----------------------+
+| GPU  Name                 Persistence-M | Bus-Id          Disp.A | Volatile Uncorr. ECC |
+| Fan  Temp   Perf          Pwr:Usage/Cap |           Memory-Usage | GPU-Util  Compute M. |
+|                                         |                        |               MIG M. |
+|=========================================+========================+======================|
+|   0  NVIDIA A40                     On  |   00000000:01:00.0 Off |                  Off |
+|  0%   34C    P8             23W /  300W |       1MiB /  49140MiB |      0%      Default |
+|                                         |                        |                  N/A |
++-----------------------------------------+------------------------+----------------------+
+                                                                                         
++-----------------------------------------------------------------------------------------+
+| Processes:                                                                              |
+|  GPU   GI   CI        PID   Type   Process name                              GPU Memory |
+|        ID   ID                                                               Usage      |
+|=========================================================================================|
+|  No running processes found                                                             |
++-----------------------------------------------------------------------------------------+
+### Finished TaskPrologue
+
+-- The CXX compiler identification is GNU 12.1.0
+-- The CUDA compiler identification is NVIDIA 12.4.131
+-- Detecting CXX compiler ABI info
+-- Detecting CXX compiler ABI info - done
+-- Check for working CXX compiler: /apps/SPACK/0.18.0/opt/linux-almalinux8-zen/gcc-8.5.0/gcc-12.1.0-aqjaxi6qzz4fjsdz6fyxpivbenk6akth/bin/g++ - skipped
+-- Detecting CXX compile features
+-- Detecting CXX compile features - done
+-- Detecting CUDA compiler ABI info
+-- Detecting CUDA compiler ABI info - done
+-- Check for working CUDA compiler: /apps/SPACK/0.19.1/opt/linux-almalinux8-zen/gcc-8.5.0/cuda-12.4.1-n7tdo6v5wbgz7vuixtvyshytmgkm7cfa/bin/nvcc - skipped
+-- Detecting CUDA compile features
+-- Detecting CUDA compile features - done
+-- Found libcudacxx: /home/hpc/hesp/hesp101h/particlesimuaccelaration/build/_deps/thrust-src/dependencies/libcudacxx/lib/cmake/libcudacxx/libcudacxx-config.cmake (found suitable version "1.8.1.0", minimum required is "1.8.0") 
+-- Found Thrust: /home/hpc/hesp/hesp101h/particlesimuaccelaration/build/_deps/thrust-src/thrust/cmake/thrust-config.cmake (found version "2.1.0.0") 
+-- Found CUB: /home/hpc/hesp/hesp101h/particlesimuaccelaration/build/_deps/thrust-src/dependencies/cub/cub/cmake/cub-config.cmake (found suitable version "2.1.0.0", minimum required is "2.1.0.0") 
+-- Configuring done
+-- Generating done
+-- Build files have been written to: /home/hpc/hesp/hesp101h/particlesimuaccelaration/build
+Consolidate compiler generated dependencies of target MDsimu
+[ 50%] Building CUDA object implementation/GPU/CMakeFiles/MDsimu.dir/main.cu.o
+[100%] Linking CUDA executable ../../../executable/MDsimu
+[100%] Built target MDsimu
+/var/tmp/slurmd_spool/job1723778/slurm_script: line 20: ./newdat/sim-datnbdacc: No such file or directory
+5 start
+/var/tmp/slurmd_spool/job1723778/slurm_script: line 26: ./newdat/sim-datnbdacc: No such file or directory
+5 done
+7 start
+/var/tmp/slurmd_spool/job1723778/slurm_script: line 26: ./newdat/sim-datnbdacc: No such file or directory
+7 done
+9 start
+/var/tmp/slurmd_spool/job1723778/slurm_script: line 26: ./newdat/sim-datnbdacc: No such file or directory
+9 done
+11 start
+/var/tmp/slurmd_spool/job1723778/slurm_script: line 26: ./newdat/sim-datnbdacc: No such file or directory
+11 done
+13 start
+/var/tmp/slurmd_spool/job1723778/slurm_script: line 26: ./newdat/sim-datnbdacc: No such file or directory
+13 done
+15 start
+/var/tmp/slurmd_spool/job1723778/slurm_script: line 26: ./newdat/sim-datnbdacc: No such file or directory
+15 done
+17 start
+/var/tmp/slurmd_spool/job1723778/slurm_script: line 26: ./newdat/sim-datnbdacc: No such file or directory
+17 done
+19 start
+/var/tmp/slurmd_spool/job1723778/slurm_script: line 26: ./newdat/sim-datnbdacc: No such file or directory
+19 done
+21 start
+/var/tmp/slurmd_spool/job1723778/slurm_script: line 26: ./newdat/sim-datnbdacc: No such file or directory
+21 done
+23 start
+/var/tmp/slurmd_spool/job1723778/slurm_script: line 26: ./newdat/sim-datnbdacc: No such file or directory
+23 done
+25 start
+/var/tmp/slurmd_spool/job1723778/slurm_script: line 26: ./newdat/sim-datnbdacc: No such file or directory
+25 done
+27 start
+/var/tmp/slurmd_spool/job1723778/slurm_script: line 26: ./newdat/sim-datnbdacc: No such file or directory
+27 done
+29 start
+/var/tmp/slurmd_spool/job1723778/slurm_script: line 26: ./newdat/sim-datnbdacc: No such file or directory
+29 done
+31 start
+/var/tmp/slurmd_spool/job1723778/slurm_script: line 26: ./newdat/sim-datnbdacc: No such file or directory
+31 done
+33 start
+/var/tmp/slurmd_spool/job1723778/slurm_script: line 26: ./newdat/sim-datnbdacc: No such file or directory
+33 done
+35 start
+slurmstepd: error: *** JOB 1723778 ON a0124 CANCELLED AT 2024-06-13T00:12:16 ***
+=== JOB_STATISTICS ===
+=== current date     : Thu Jun 13 00:12:18 CEST 2024
+= Job-ID             : 1723778 on alex
+= Job-Name           : performance.sh
+= Job-Command        : /home/hpc/hesp/hesp101h/particlesimuaccelaration/performaneplotting/performance.sh
+= Initial workdir    : /home/hpc/hesp/hesp101h/particlesimuaccelaration/performaneplotting
+= Queue/Partition    : a40
+= Slurm account      : hesp with QOS=normal
+= Requested resources:  for 12:00:00
+= Elapsed runtime    : 00:00:34
+= Total RAM usage    : 0.0 GiB of assigned  GiB (%)
+= Node list          : a0124
+= Subm/Elig/Start/End: 2024-06-13T00:11:41 / 2024-06-13T00:11:41 / 2024-06-13T00:11:42 / 2024-06-13T00:12:16
+======================
+=== Quota infos ======
+    Path              Used     SoftQ    HardQ    Gracetime  Filec    FileQ    FiHaQ    FileGrace    
+    /home/hpc         2622.1M   104.9G   209.7G        N/A  33,705      500K   1,000K        N/A    
+======================
+=== GPU utilization ==
+gpu_name, gpu_bus_id, pid, gpu_utilization [%], mem_utilization [%], max_memory_usage [MiB], time [ms]
